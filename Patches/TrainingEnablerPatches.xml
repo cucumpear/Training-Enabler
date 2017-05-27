@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	<Operation Class="PatchOperationRemove">
+	  <xpath>//ThingDef[defName = "Chicken"]/race/trainableIntelligence</xpath>
+	</Operation> 
+	<Operation Class="PatchOperationReplace">
+	  <xpath>//ThingDef[defName = "Cat"]/race/trainableIntelligence</xpath>
+	  <value><trainableIntelligence>Advanced</trainableIntelligence></value>
+	</Operation> 
+</Patch>
